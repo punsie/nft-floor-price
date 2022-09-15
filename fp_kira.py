@@ -74,7 +74,7 @@ async def on_ready():
         except requests.exceptions.HTTPError as e:
             print(f'{dt.utcnow()} | HTTP error: {e}.')
         finally:
-            await asyncio.sleep(900)
+            await asyncio.sleep(1500)
 ################################################################################
 
 ################################################################################
